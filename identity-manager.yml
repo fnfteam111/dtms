@@ -3,5 +3,13 @@ server:
     context-path: /identity-manager
   port: 8081
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+    beans:
+      enabled:  false
+
 app:
   service-name: identity-manager service111
