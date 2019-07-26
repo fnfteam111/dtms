@@ -1,5 +1,2 @@
 server:
   port: 8761
-  
-test:
-  name: phong
