@@ -10,7 +10,7 @@ zuul:
 
   routes:
     identity-manager:
-      path: /identityManager/**
+      path: /identity-manager/**
       serviceId: identity-manager
       stripPrefix: false
       sensitiveHeaders:
