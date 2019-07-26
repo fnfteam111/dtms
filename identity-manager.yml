@@ -12,4 +12,4 @@ management:
       enabled:  false
 
 app:
-  service-name: identity-manager service111
+  service-name: identity-manager service567
