@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /identity-manager
+  port: 8081
