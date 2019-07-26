@@ -1,0 +1,19 @@
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+zuul:
+  ignoredServices: '*'
+#  host:
+#    connect-timeout-millis: 20000
+#    socket-timeout-millis: 20000
+
+  routes:
+    identity-manager:
+      path: /identityManager/**
+      serviceId: identity-manager
+      stripPrefix: false
+      sensitiveHeaders:
+
+server:
+  port: 8090
