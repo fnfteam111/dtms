@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.springframework.security: INFO
+    
+registry:
+  host: localhost
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://${registry.host}:8761/eureka/
