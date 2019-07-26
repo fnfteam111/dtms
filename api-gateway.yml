@@ -14,10 +14,6 @@ zuul:
       serviceId: identity-manager
       stripPrefix: false
       sensitiveHeaders:
-
-spring:
-   main:
-     allow-bean-definition-overriding: true
      
 server:
   port: 8090
