@@ -13,7 +13,7 @@ management:
 
 spring:
   rabbitmq:
-    host: localhost
+    host: https://hornet.rmq.cloudamqp.com/
 #    port: 15672
 #    username: admin
 #    password: admin
