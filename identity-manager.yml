@@ -13,7 +13,8 @@ management:
 
 spring:
   rabbitmq:
-    host: https://hornet.rmq.cloudamqp.com/
+#    host: https://hornet.rmq.cloudamqp.com/
+    host: 52.90.223.165
 #    port: 15672
 #    username: admin
 #    password: admin
