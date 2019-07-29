@@ -19,4 +19,4 @@ spring:
     password: admin
 
 app:
-  service-name: identity-manager service1006
+  service-name: identity-manager service1007
