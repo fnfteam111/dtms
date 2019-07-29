@@ -13,11 +13,10 @@ management:
 
 spring:
   rabbitmq:
-#    host: https://hornet.rmq.cloudamqp.com/
-    host: 52.90.223.165
+    host: 10.72.0.181
     port: 5672
-    username: admin
-    password: admin
+#    username: fnfteam111
+#    password: A12345678!a
 
 app:
   service-name: identity-manager service1000
