@@ -15,8 +15,8 @@ spring:
   rabbitmq:
     host: 10.72.0.181
     port: 5672
-#    username: fnfteam111
-#    password: A12345678!a
+    username: admin
+    password: admin
 
 app:
   service-name: identity-manager service1000
