@@ -4,9 +4,9 @@ ribbon:
 
 zuul:
   ignoredServices: '*'
-#  host:
-#    connect-timeout-millis: 20000
-#    socket-timeout-millis: 20000
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
 
   routes:
     identity-manager:
